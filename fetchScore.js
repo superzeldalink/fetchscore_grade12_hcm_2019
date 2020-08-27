@@ -20,7 +20,7 @@ let filename = 'grade12'
 
 const fetchScore = id => {
     let promise = resolve =>
-    axios.get(`https://diemthi.tuoitre.vn/kythi2019.html?FiledValue=0${id}&MaTruong=l12hcm`)
+    axios.get(`https://diemthi.tuoitre.vn/kythi2020.html?FiledValue=0${id}&MaTruong=DDT`)
     .then(res => {
         const data = res.data
         const subjects = []
